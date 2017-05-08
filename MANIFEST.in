@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ocean *.css
+recursive-include ocean *.csv
+recursive-include ocean *.html
+recursive-include ocean *.ico
+recursive-include ocean *.js
+recursive-include ocean *.json
+recursive-include ocean *.md
+recursive-include ocean *.png
+recursive-include ocean *.py
+recursive-include ocean *.svg
+recursive-include ocean *.txt
+recursive-exclude ocean *.pyc
