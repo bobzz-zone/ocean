@@ -23,7 +23,7 @@ frappe.listview_settings['Remote Document Sync'] = { onload: function(cur_list){
 		
 		frappe.call({
 		type:"POST",
-		method:"angel.angel.doctype.remote_document_sync.remote_document_sync.sync_erp2",
+		method:"ocean.ocean.doctype.remote_document_sync.remote_document_sync.sync_erp2",
 		args:{"doc_list":data},
 		callback:function(rec){
 			

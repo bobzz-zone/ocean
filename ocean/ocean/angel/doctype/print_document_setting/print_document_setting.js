@@ -2,7 +2,7 @@
 	alert();	
 	frappe.call({
 	type:"GET",
-	method:"angel.doctype.print_document_setting.update_print_counter",
+	method:"ocean.doctype.print_document_setting.update_print_counter",
 	args:{
 	"frm":frm,
 	"doc":doc

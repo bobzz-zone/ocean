@@ -8,7 +8,7 @@
  "is_standard": "Yes", 
  "modified": "2015-11-18 12:03:14.934921", 
  "modified_by": "Administrator", 
- "module": "Angel", 
+ "module": "Ocean", 
  "name": "Territory Based Undelivered Sales Order", 
  "owner": "Administrator", 
  "ref_doctype": "Sales Order", 

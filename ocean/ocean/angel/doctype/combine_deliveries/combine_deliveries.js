@@ -29,7 +29,7 @@ $.extend(cur_frm.cscript, {
 			lst.territory = territory;
 		}
 		frappe.call({
-			method: "angel.angel.doctype.combine_deliveries.combine_deliveries.get_delivery_note",
+			method: "ocean.ocean.doctype.combine_deliveries.combine_deliveries.get_delivery_note",
 			args : {"data":lst},
 			callback: function(r){
 				if(r && r.message){
@@ -89,7 +89,7 @@ $.extend(cur_frm.cscript, {
 				}
 			}
 			frappe.call({
-				method: "angel.angel.doctype.combine_deliveries.combine_deliveries.make_return_deliveries",
+				method: "ocean.ocean.doctype.combine_deliveries.combine_deliveries.make_return_deliveries",
 				args: {"source_name_list":lst}
 			});
 		}
