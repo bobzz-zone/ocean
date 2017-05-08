@@ -10,10 +10,13 @@ app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "bobzz.zone@gmail.com"
 app_license = "MIT"
-
+website_context = {
+	"splash_image": "/assets/angel/images/ms-icon-310x310.png",
+	"favicon"     :	"/assets/angel/images/favicon-16x16.png"
+}
 # Includes in <head>
 # ------------------
-
+after_install = "angel.install.after_install"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/ocean/css/ocean.css"
 # app_include_js = "/assets/ocean/js/ocean.js"
